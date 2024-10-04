@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-con {
+  background-color: #9ba9eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-con {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.logo {
+  width: 200px;
+}
+
+.add-password-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5763a5;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.con {
+  padding: 10px;
+  background-color: #454f84;
+  border: 0;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.add-password-heading {
+  color: white;
+  margin-left: 15px;
+}
+
+.input-con {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  padding: 2px;
+}
+
+.img-con {
+  background-color: white;
+  padding: 5px;
+  margin: 0;
+}
+
+.website-image {
+  width: 25px;
+}
+
+.separator {
+  border-left: 1px solid #9ba9eb;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.input {
+  outline: none;
+  background-color: white;
+  margin: 0;
+  border: 0;
+  color: #b6c3ca;
+  font-size: 15px;
+}
+
+.add-btn-con {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  border: 0;
+  font-weight: 700;
+  border-radius: 6px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.password-manager-image {
+  width: 350px;
+}
+
+.passwords-con {
+  flex: 1;
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.password-heading-search-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.passwords-count-con {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.your-password {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.password-count {
+  border: 1px solid white;
+  color: white;
+  padding: 3px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.search-con {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 2px;
+}
+
+.search-img-con {
+  background-color: white;
+  padding: 5px;
+  margin: 0;
+}
+
+.search-image {
+  width: 25px;
+}
+
+.search {
+  outline: none;
+  background-color: white;
+  margin: 0;
+  border: 0;
+  color: #b6c3ca;
+  font-size: 15px;
+  width: 250px;
+}
+
+.password-separator {
+  border: 1px solid #9ba9eb;
+}
+
+.checkbox-con {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+
+#checkbox {
+  background-color: white;
+  outline: none;
+  width: 15px;
+  height: 15px;
+}
+
+.checkbox-label {
+  color: white;
+  font-size: 15px;
+}
+
+.no-password-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-password-img {
+  width: 400px;
+}
+
+.no-password-text {
+  color: white;
+  font-weight: 700;
+}
+
+.password-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+.password-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #9ba9eb;
+  padding: 10px;
+}
+
+.website-profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  background-color: #14b8a6;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.website,
+.username,
+.password {
+  color: white;
+}
+
+.star-password {
+  width: 12px;
+}
+
+.delete-image {
+  width: 12px;
+}
